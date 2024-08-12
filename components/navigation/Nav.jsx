@@ -7,7 +7,7 @@ const Nav = () => {
     <NavHolder>
     <header className="w-full fixed p-[2rem] h-[8rem] font-semibold flex justify-between sm:justify-around bg-white z-10 top-0 left-0 right-0">
       <Link href="/#" className="w-fit text-[2.5rem] py-[3px] font-bold text-slate-700">
-        tika<span className="text-slate-400">.info</span>
+        Deepsu.
       </Link>
       <nav className="w-fit hidden sm:flex gap-[2rem] text-[1.6rem] text-slate-600 font-medium">
         <Link
