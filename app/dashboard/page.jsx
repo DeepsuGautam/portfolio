@@ -27,6 +27,7 @@ const page = async () => {
     const prj = await projects.findOne({title});
     await del_images(`projects/${prj?.image}`);
     await projects.findOneAndDelete({title})
+    revalidatePath("/");
     revalidatePath("/dashboard")
   }
 
