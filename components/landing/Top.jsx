@@ -1,10 +1,11 @@
+"use server"
 import { get_images } from "@/functions/files/get_images";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import FadeIn from "../reusable/FadeIn";
 
-const Top = () => {
+const Top = async() => {
   return (
     <section
       id=""

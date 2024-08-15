@@ -13,6 +13,7 @@ const AboutImage = ({ oldImage }) => {
         src={newFile || oldImage}
         width={1000}
         height={1000}
+        alt=""
         className="w-full h-[30rem] object-cover object-center rounded-xl bg-white shadow-xl"
       />
       <br />

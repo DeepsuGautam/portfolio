@@ -50,4 +50,6 @@ const GetLimitedDatas = async (model, sorting_order, start, limit) => {
   }
 };
 
-export { GetAll, GetUniqueDatas, GetLimitedDatas };
+const revalidate =async()=> 0
+
+export { GetAll, GetUniqueDatas, GetLimitedDatas,revalidate };

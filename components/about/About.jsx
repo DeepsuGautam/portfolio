@@ -1,9 +1,10 @@
+"use server"
 import { get_images } from "@/functions/files/get_images";
 import React from "react";
 import FadeLeft from "../reusable/FadeLeft";
 import Link from "next/link";
 
-const About = () => {
+const About = async() => {
 
     const image = get_images("covers", "about_cover.jpg")
 

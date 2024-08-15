@@ -1,3 +1,4 @@
+"use server"
 import { GetAll } from "@/functions/get_data/GetDatas";
 import projects from "@/models/projects";
 import React from "react";
